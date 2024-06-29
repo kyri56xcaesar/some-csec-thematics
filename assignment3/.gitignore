@@ -1,0 +1,6 @@
+test.c
+file_*
+*.log
+*.txt
+*.out
+*.o

